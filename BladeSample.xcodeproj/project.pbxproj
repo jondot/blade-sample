@@ -220,7 +220,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = blade;
+			shellScript = ./run_blade.sh;
 		};
 /* End PBXShellScriptBuildPhase section */
 
