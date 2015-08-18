@@ -119,6 +119,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E17ED401B83481E00410EB2 /* Build configuration list for PBXNativeTarget "BladeSample" */;
 			buildPhases = (
+				5E17ED461B83525100410EB2 /* ShellScript */,
 				5E17ED1D1B83481E00410EB2 /* Sources */,
 				5E17ED1E1B83481E00410EB2 /* Frameworks */,
 				5E17ED1F1B83481E00410EB2 /* Resources */,
@@ -206,6 +207,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E17ED461B83525100410EB2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = blade;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5E17ED1D1B83481E00410EB2 /* Sources */ = {
